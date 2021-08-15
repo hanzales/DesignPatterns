@@ -1,6 +1,7 @@
 ﻿using FactoryDesignPatternApp.Interfaces;
+using FactoryDesignPatternApp.Models;
 
-namespace FactoryDesignPatternApp.Models
+namespace FactoryDesignPatternApp.Factories
 {
     public class TitaniumFactory : CreditCardFactory
     {

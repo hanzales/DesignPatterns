@@ -1,4 +1,4 @@
-﻿using FactoryDesignPatternApp.Models;
+﻿using FactoryDesignPatternApp.Factories;
 using System;
 
 namespace FactoryDesignPatternApp

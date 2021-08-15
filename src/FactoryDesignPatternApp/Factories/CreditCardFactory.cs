@@ -1,6 +1,6 @@
 ﻿using FactoryDesignPatternApp.Interfaces;
 
-namespace FactoryDesignPatternApp.Models
+namespace FactoryDesignPatternApp.Factories
 {
     public abstract class CreditCardFactory
     {
