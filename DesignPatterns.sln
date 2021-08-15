@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractDesignPattern", "Ab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPatternApp", "src\AbstractFactoryDesignPatternApp\AbstractFactoryDesignPatternApp.csproj", "{D4816B22-98C1-4FEB-930D-99039FE6FB0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderDesignPattern", "BuilderDesignPattern", "{4993FE2E-9FEB-4EDA-8C2F-AF0CB26FC620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPatternApp", "src\BuilderDesignPatternApp\BuilderDesignPatternApp.csproj", "{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{D4816B22-98C1-4FEB-930D-99039FE6FB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4816B22-98C1-4FEB-930D-99039FE6FB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4816B22-98C1-4FEB-930D-99039FE6FB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 		{CE7BB26D-515D-45FC-90BA-8379ADBBBDCC} = {EBDE7987-9136-42BF-AE6F-C0EF05B0BE9A}
 		{C330D35B-90B1-46C2-A983-82F104C788F9} = {B367A8AC-5AB2-4E98-A51A-170081377F24}
 		{D4816B22-98C1-4FEB-930D-99039FE6FB0E} = {C330D35B-90B1-46C2-A983-82F104C788F9}
+		{4993FE2E-9FEB-4EDA-8C2F-AF0CB26FC620} = {B367A8AC-5AB2-4E98-A51A-170081377F24}
+		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474} = {4993FE2E-9FEB-4EDA-8C2F-AF0CB26FC620}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC3C23D8-E9EA-454E-89B3-771ECE43B27F}
