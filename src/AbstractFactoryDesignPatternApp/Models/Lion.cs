@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryDesignPatternApp.Models
 {
-    public class Lion : Animal
+    public class Lion : IAnimal
     {
         public string Speak()
         {

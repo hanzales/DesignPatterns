@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactoryDesignPatternApp.Interfaces
 {
-    public interface Animal
+    public interface IAnimal
     {
         string Speak();
     }

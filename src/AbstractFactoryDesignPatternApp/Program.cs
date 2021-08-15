@@ -1,6 +1,6 @@
-﻿using System;
-using AbstractFactoryDesignPatternApp.Factories;
+﻿using AbstractFactoryDesignPatternApp.Factories;
 using AbstractFactoryDesignPatternApp.Interfaces;
+using System;
 
 namespace AbstractFactoryDesignPatternApp
 {
@@ -8,7 +8,7 @@ namespace AbstractFactoryDesignPatternApp
     {
         static void Main(string[] args)
         {
-            Animal animal = null;
+            IAnimal animal = null;
             AnimalFactory animalFactory = null;
             var speakSound = string.Empty;
 

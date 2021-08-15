@@ -1,6 +1,6 @@
 ﻿namespace FactoryDesignPatternApp.Interfaces
 {
-    public interface CreditCard
+    public interface ICreditCard
     {
         string GetCardType();
         int GetCreditLimit();

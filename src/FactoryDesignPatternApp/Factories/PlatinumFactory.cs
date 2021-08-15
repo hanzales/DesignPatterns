@@ -5,9 +5,9 @@ namespace FactoryDesignPatternApp.Factories
 {
     public class PlatinumFactory : CreditCardFactory
     {
-        protected override CreditCard MakeProduct()
+        protected override ICreditCard MakeProduct()
         {
-            CreditCard product = new Platinum();
+            ICreditCard product = new Platinum();
             return product;
         }
     }

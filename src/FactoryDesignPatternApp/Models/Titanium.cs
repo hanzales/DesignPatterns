@@ -3,7 +3,7 @@ using System;
 
 namespace FactoryDesignPatternApp.Models
 {
-    public class Titanium : CreditCard
+    public class Titanium : ICreditCard
     {
         public int GetAnnualCharge()
         {

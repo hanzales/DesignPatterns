@@ -2,7 +2,7 @@
 
 namespace FactoryDesignPatternApp.Models
 {
-    public class MoneyBack : CreditCard
+    public class MoneyBack : ICreditCard
     {
         public int GetAnnualCharge()
         {

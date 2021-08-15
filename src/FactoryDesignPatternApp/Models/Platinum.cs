@@ -2,7 +2,7 @@
 
 namespace FactoryDesignPatternApp.Models
 {
-    public class Platinum : CreditCard
+    public class Platinum : ICreditCard
     {
         public int GetAnnualCharge()
         {

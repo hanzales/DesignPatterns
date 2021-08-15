@@ -5,7 +5,7 @@ namespace AbstractFactoryDesignPatternApp.Factories
 {
     public class SeaAnimalFactory : AnimalFactory
     {
-        public override Animal GetAnimal(string animalType)
+        public override IAnimal GetAnimal(string animalType)
         {
             return animalType switch
             {

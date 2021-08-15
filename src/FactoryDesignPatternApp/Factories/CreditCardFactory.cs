@@ -4,9 +4,9 @@ namespace FactoryDesignPatternApp.Factories
 {
     public abstract class CreditCardFactory
     {
-        protected abstract CreditCard MakeProduct();
+        protected abstract ICreditCard MakeProduct();
 
-        public CreditCard CreateProduct()
+        public ICreditCard CreateProduct()
         {
             return this.MakeProduct();
         }
