@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderDesignPattern", "Bui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPatternApp", "src\BuilderDesignPatternApp\BuilderDesignPatternApp.csproj", "{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentInterfaceDesignPattern", "FluentInterfaceDesignPattern", "{758D6179-A1DB-441C-B2E1-CBA13BF466D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterfaceDesignPatternApp", "src\FluentInterfaceDesignPatternApp\FluentInterfaceDesignPatternApp.csproj", "{A900F79D-45D3-4799-A85A-0832E0A50E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A900F79D-45D3-4799-A85A-0832E0A50E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A900F79D-45D3-4799-A85A-0832E0A50E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A900F79D-45D3-4799-A85A-0832E0A50E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A900F79D-45D3-4799-A85A-0832E0A50E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,8 @@ Global
 		{D4816B22-98C1-4FEB-930D-99039FE6FB0E} = {C330D35B-90B1-46C2-A983-82F104C788F9}
 		{4993FE2E-9FEB-4EDA-8C2F-AF0CB26FC620} = {B367A8AC-5AB2-4E98-A51A-170081377F24}
 		{D45DEB27-4B15-4E5D-9ADA-CE24B189A474} = {4993FE2E-9FEB-4EDA-8C2F-AF0CB26FC620}
+		{758D6179-A1DB-441C-B2E1-CBA13BF466D1} = {B367A8AC-5AB2-4E98-A51A-170081377F24}
+		{A900F79D-45D3-4799-A85A-0832E0A50E89} = {758D6179-A1DB-441C-B2E1-CBA13BF466D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC3C23D8-E9EA-454E-89B3-771ECE43B27F}
