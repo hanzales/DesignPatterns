@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutboxDesignPattern", "Outb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutboxDesignPatternApp", "src\OutboxDesignPattern\OutboxDesignPatternApp\OutboxDesignPatternApp.csproj", "{B322B0B8-6FA0-4861-8351-228FEB424B7B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SagaDesignPattern", "SagaDesignPattern", "{F167071C-606A-467A-939C-A26ACEEC5AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaDesignPatternApp", "src\SagaDesignPatternApp\SagaDesignPatternApp.csproj", "{EF98E9AA-2EB1-4F86-8C5F-9B2CEA235646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{B322B0B8-6FA0-4861-8351-228FEB424B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B322B0B8-6FA0-4861-8351-228FEB424B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B322B0B8-6FA0-4861-8351-228FEB424B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF98E9AA-2EB1-4F86-8C5F-9B2CEA235646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF98E9AA-2EB1-4F86-8C5F-9B2CEA235646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF98E9AA-2EB1-4F86-8C5F-9B2CEA235646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF98E9AA-2EB1-4F86-8C5F-9B2CEA235646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,8 @@ Global
 		{6E1F08CD-5081-4949-A1A6-27F05A630CD6} = {0B921321-019B-4DC3-A751-D670B2473169}
 		{70A344C8-0F72-4FCB-A9C5-297F6FCF7663} = {B367A8AC-5AB2-4E98-A51A-170081377F24}
 		{B322B0B8-6FA0-4861-8351-228FEB424B7B} = {70A344C8-0F72-4FCB-A9C5-297F6FCF7663}
+		{F167071C-606A-467A-939C-A26ACEEC5AAF} = {B367A8AC-5AB2-4E98-A51A-170081377F24}
+		{EF98E9AA-2EB1-4F86-8C5F-9B2CEA235646} = {F167071C-606A-467A-939C-A26ACEEC5AAF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC3C23D8-E9EA-454E-89B3-771ECE43B27F}
